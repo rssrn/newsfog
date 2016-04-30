@@ -17,7 +17,5 @@ exports.getTerms = function(str) {
 		}
 	}
 	
-	process.stdout.write("asdf");
-
 	return result;
 }
