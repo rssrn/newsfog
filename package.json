@@ -4,8 +4,8 @@
   "description": "Some kind of thing for news",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "heroku local web"
   },
   "keywords": [],
   "author": "Ross Arnold",
@@ -14,6 +14,8 @@
     "node": "4.4.3"
   },
   "dependencies": {
-    "express": "^4.13.4"
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "mocha": "^2.4.5"
   }
 }
