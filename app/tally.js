@@ -1,7 +1,6 @@
 var logger = require("../app/logger");
 
 exports.getTerms = function(str) {
-	logger.log("getTerms");
 	splitted = str.split('"');
 
 	var result = Array();
