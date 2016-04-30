@@ -1,6 +1,6 @@
 exports.ping = function(str) {
 	if (str == "ping") {
-		return "pong";
+		return "poong";
 	} else {
 		return "unknown";
 	}
