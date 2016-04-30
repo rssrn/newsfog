@@ -4,7 +4,7 @@
   "description": "Some kind of thing for news",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test": "SUPPRESS_LOGS=y ./node_modules/.bin/mocha --reporter spec",
     "start": "heroku local web"
   },
   "keywords": [],

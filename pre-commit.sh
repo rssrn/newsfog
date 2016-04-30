@@ -10,13 +10,13 @@ echo "running pre-commit.sh"
 
 if git diff-index --quiet HEAD --; then
 	# no changes between index and working copy; just run tests
-	./node_modules/.bin/mocha --reporter dot
+	SUPPRESS_LOGS=y ./node_modules/.bin/mocha --reporter dot
 	RESULT=$?
 else
 	# Test the version that's about to be committed,
 	# stashing all unindexed changes
 	git stash -q --keep-index
-	./node_modules/.bin/mocha --reporter dot
+	SUPPRESS_LOGS=y ./node_modules/.bin/mocha --reporter dot
 	RESULT=$?
 	git stash pop -q
 fi
