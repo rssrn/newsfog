@@ -1,5 +1,8 @@
 var express = require('express');
 var app = express();
+var logger = require('./app/logger.js');
+
+logger.log("Starting newsfog");
 
 app.set('port', (process.env.PORT || 5000));
 
