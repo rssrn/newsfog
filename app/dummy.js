@@ -3,6 +3,6 @@ exports.ping = function(str) {
 		var a = "";
 		return "pong";
 	} else {
-		return "unknown";
+		return "unkknown";
 	}
 }
