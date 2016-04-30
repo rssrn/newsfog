@@ -1,15 +1,19 @@
 {
   "name": "newscloud",
   "version": "1.0.0",
-  "description": "",
+  "description": "Some kind of thing for news",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ross Arnold",
   "license": "ISC",
   "engines": {
     "node": "4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
