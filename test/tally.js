@@ -46,4 +46,16 @@ describe("Tally library works for", function() {
 			]);
 		});
 	});
+	describe("Tallying strings", function() {
+		it("Produces correct counts in a simple case", function() {
+			var res = tally.getTally('junk"xx","xx","yy","zz","zz","zz"');
+
+			expect(res).to.be.instanceof(Array);
+			expect(res).to.deep.equal([
+				{'item':'zz','count':3},
+				{'item':'xx','count':2},
+				{'item':'yy','count':1},
+			]);
+		});
+	});
 });

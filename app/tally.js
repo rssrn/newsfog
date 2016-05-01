@@ -1,7 +1,8 @@
 var logger = require("../app/logger");
 
 exports.getTally = function(str) {
-	
+	var counts = this.getTerms(str);
+	return this.doTally(counts);
 }
 
 exports.getTerms = function(str) {
@@ -45,9 +46,11 @@ exports.doTally = function(arr) {
 		result.push({"item":key,"count": counts[key]});
 	}
 	
+	// Sort descending
 	result.sort(function(a,b) {
 		return b.count - a.count;
 	});
 
 	return result;
 }
+
