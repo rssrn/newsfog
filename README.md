@@ -14,3 +14,8 @@ This will then prevent commit until all unit tests pass.
 ## Detail ##
 
 http://hawttrends.appspot.com/api/terms/
+
+
+## Ideas ##
+
+http://www.goat1000.com/tagcanvas.php	
