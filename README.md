@@ -9,3 +9,8 @@ Add the unit testing hook:
     ln -s ../../pre-commit.sh .git/hooks/pre-commit
 
 This will then prevent commit until all unit tests pass.
+
+
+## Detail ##
+
+http://hawttrends.appspot.com/api/terms/

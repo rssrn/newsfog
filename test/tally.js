@@ -57,5 +57,19 @@ describe("Tally library works for", function() {
 				{'item':'yy','count':1},
 			]);
 		});
+		it("Produces correct counts in a real data example", function() {
+			var fs = require('fs');
+
+			var dat = fs.readFileSync('test/hawttrends_terms_sample_1.dat').toString();
+
+			expect(dat.length).to.be.above(100);
+
+			var res = tally.getTally(dat);
+
+			expect(res).to.be.instanceof(Array);
+			expect(res.length).to.be.above(10);
+			expect(res[0]).to.deep.equal({'item':'Leicester','count':16});
+
+		});
 	});
 });
