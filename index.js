@@ -1,14 +1,11 @@
-var express = require('express');
-var app = express();
 var logger = require('./app/logger.js');
+var server = require('./app/server.js');
 
 logger.log("Starting newsfog");
 
-app.set('port', (process.env.PORT || 5000));
+var app = server();
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+app.set('port', (process.env.PORT || 5000));
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
