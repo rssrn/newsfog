@@ -1,0 +1,161 @@
+[
+   {
+    "trends":  [
+       {
+        "name": "Mark Weldon",
+        "url": "http://twitter.com/search?q=%22Mark+Weldon%22",
+        "promoted_content": null,
+        "query": "%22Mark+Weldon%22",
+        "tweet_volume": null
+      },
+       {
+        "name": "Ted Cruz",
+        "url": "http://twitter.com/search?q=%22Ted+Cruz%22",
+        "promoted_content": null,
+        "query": "%22Ted+Cruz%22",
+        "tweet_volume": 611558
+      },
+       {
+        "name": "Ruataniwha",
+        "url": "http://twitter.com/search?q=Ruataniwha",
+        "promoted_content": null,
+        "query": "Ruataniwha",
+        "tweet_volume": null
+      },
+       {
+        "name": "Trump",
+        "url": "http://twitter.com/search?q=Trump",
+        "promoted_content": null,
+        "query": "Trump",
+        "tweet_volume": 1681759
+      },
+       {
+        "name": "Leicester",
+        "url": "http://twitter.com/search?q=Leicester",
+        "promoted_content": null,
+        "query": "Leicester",
+        "tweet_volume": 562204
+      },
+       {
+        "name": "Nick Smith",
+        "url": "http://twitter.com/search?q=%22Nick+Smith%22",
+        "promoted_content": null,
+        "query": "%22Nick+Smith%22",
+        "tweet_volume": null
+      },
+       {
+        "name": "May the Fourth",
+        "url": "http://twitter.com/search?q=%22May+the+Fourth%22",
+        "promoted_content": null,
+        "query": "%22May+the+Fourth%22",
+        "tweet_volume": 29921
+      },
+       {
+        "name": "Nats",
+        "url": "http://twitter.com/search?q=Nats",
+        "promoted_content": null,
+        "query": "Nats",
+        "tweet_volume": 18087
+      },
+       {
+        "name": "National",
+        "url": "http://twitter.com/search?q=National",
+        "promoted_content": null,
+        "query": "National",
+        "tweet_volume": 266056
+      },
+       {
+        "name": "Radiohead",
+        "url": "http://twitter.com/search?q=Radiohead",
+        "promoted_content": null,
+        "query": "Radiohead",
+        "tweet_volume": 149503
+      },
+       {
+        "name": "Fiji",
+        "url": "http://twitter.com/search?q=Fiji",
+        "promoted_content": null,
+        "query": "Fiji",
+        "tweet_volume": null
+      },
+       {
+        "name": "Overwatch",
+        "url": "http://twitter.com/search?q=Overwatch",
+        "promoted_content": null,
+        "query": "Overwatch",
+        "tweet_volume": 54386
+      },
+       {
+        "name": "New York",
+        "url": "http://twitter.com/search?q=%22New+York%22",
+        "promoted_content": null,
+        "query": "%22New+York%22",
+        "tweet_volume": 235071
+      },
+       {
+        "name": "Premier League",
+        "url": "http://twitter.com/search?q=%22Premier+League%22",
+        "promoted_content": null,
+        "query": "%22Premier+League%22",
+        "tweet_volume": 164881
+      },
+       {
+        "name": "Children's Commissioner",
+        "url": "http://twitter.com/search?q=%22Children%27s+Commissioner%22",
+        "promoted_content": null,
+        "query": "%22Children%27s+Commissioner%22",
+        "tweet_volume": null
+      },
+       {
+        "name": "Calum",
+        "url": "http://twitter.com/search?q=Calum",
+        "promoted_content": null,
+        "query": "Calum",
+        "tweet_volume": 41129
+      },
+       {
+        "name": "Europe",
+        "url": "http://twitter.com/search?q=Europe",
+        "promoted_content": null,
+        "query": "Europe",
+        "tweet_volume": 141796
+      },
+       {
+        "name": "NZers",
+        "url": "http://twitter.com/search?q=NZers",
+        "promoted_content": null,
+        "query": "NZers",
+        "tweet_volume": null
+      },
+       {
+        "name": "Snapchat",
+        "url": "http://twitter.com/search?q=Snapchat",
+        "promoted_content": null,
+        "query": "Snapchat",
+        "tweet_volume": 407491
+      },
+       {
+        "name": "Maori",
+        "url": "http://twitter.com/search?q=Maori",
+        "promoted_content": null,
+        "query": "Maori",
+        "tweet_volume": null
+      },
+       {
+        "name": "LinkedIn",
+        "url": "http://twitter.com/search?q=LinkedIn",
+        "promoted_content": null,
+        "query": "LinkedIn",
+        "tweet_volume": 77257
+      }
+    ],
+    "as_of": "2016-05-04T09:30:10Z",
+    "created_at": "2016-05-04T09:20:24Z",
+    "locations":  [
+       {
+        "name": "New Zealand",
+        "woeid": 23424916
+      }
+    ]
+  }
+]

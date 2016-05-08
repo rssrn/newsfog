@@ -20,7 +20,10 @@ before(function () {
 
 describe('/test/small_static_test', function () {
 	it('should return 200', function (done) {
-		http.get('http://localhost:' + port, function (res) {
+		http.get('http://localhost:'
+				 + port +
+				 '/test/small_static_test.txt',
+		function (res) {
 			expect(res.statusCode).to.equal(200);
 			done();
 		});

@@ -5,10 +5,15 @@ module.exports = function () {
 	var app = express();
 
 	app.use(express.static('public'));
+	
+	var datSendfileOptions = {
+		root: __dirname + '/../dat/'
+	};
 
 	// routes
-	app.get('/', function (req, res) {
-		res.send('Hello World!');
+	app.get('/dat/*.json', function (req, res) {
+		var path = req.params[0]; 
+		res.sendFile(path + ".json",datSendfileOptions)
 	});
 
 	return app;
